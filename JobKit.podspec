@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "JobKit"
-  s.version          = "0.9.1"
+  s.version          = “0.9.2”
   s.summary          = "Pesistent job queueing for iOS."
   s.description      = <<-DESC
                        Pesistent job queueing for iOS. Backed by Realm buy you can roll your own.
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/cristianbica/JobKit"
   s.license          = 'MIT'
   s.author           = { "Cristian Bica" => "cristian.bica@gmail.com" }
-  s.source           = { :git => "https://github.com/cristianbica/JobKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/DoubleNode/JobKit.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/cristianbica'
 
   s.ios.deployment_target = '8.0'
